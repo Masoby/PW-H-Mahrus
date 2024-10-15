@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #E9EED9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #CBD2A4;
+    padding: 80px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px #9A7E6F;
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #DBD3D3;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px; /* Menambahkan jarak antar tombol */
+    margin-top: 10px;
+}
+
+button {
+    flex: 1; /* Membuat kedua tombol memiliki lebar yang sama */
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:first-child {
+    background-color: #9A7E6F;
+    color: white;
+}
+
+button:last-child {
+    background-color: #54473F;
+    color: white;
+}
+
+h3 {
+    margin-top: 20px;
+}
