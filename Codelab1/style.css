@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: left;
+    color: black;
+    margin-left: 70px;
+}
+
+table {
+    width: 90%;
+    margin: 20px auto;
+    border: 2px solid
+}
+
+
+
+th, td {
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+th {
+    background-color: yellow;
+}
+
+/* Warna kolom Senin */
+td:nth-child(1) {
+    background-color: cyan;
+}
+
+/* Warna kolom Selasa */
+td:nth-child(2) {
+    background-color: black;
+    color: white;
+}
+
+/* Warna kolom Rabu */
+td:nth-child(3) {
+    background-color: pink;
+}
